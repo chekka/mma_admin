@@ -1,0 +1,11 @@
+header {
+ float: left;
+ width: 100%; 
+}
+section.bottom {
+ float: left;
+ width: 100%;
+}
+.grid-4.col-right {
+ float: right;
+}

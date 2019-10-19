@@ -1,0 +1,31 @@
+name = MMA Admin
+description = Admin theme based on the Twitter Bootstrap toolkit
+core = 7.x
+engine = phptemplate
+
+; regions[help] = Help
+regions[admin_menu] = Admin Menu
+regions[sidebar_main] = Admin Main Sidebar
+regions[top] = Page Top
+regions[content] = Content
+regions[bottom] = Page bottom
+regions[footer_1] = Footer 1
+regions[footer_2] = Footer 2
+regions[footer_3] = Footer 3
+regions[footer_4] = Footer 4
+
+scripts[] = /assets/js/jquery-ui/jquery-ui.min.js
+scripts[] = /assets/js/jquery.browser.min.js
+scripts[] = /assets/js/modernizr-custom.js
+scripts[] = /assets/js/mma-admin.js
+
+stylesheets[screen][] = /assets/css/jquery-ui/jquery-ui.structure.min.css
+stylesheets[screen][] = /assets/css/jquery-ui/jquery-ui.min.css
+; stylesheets[screen][] = /assets/css/bootstrap.css
+stylesheets[screen][] = /assets/css/mma_admin.css
+stylesheets[all][]    = ../overwrites/overwrites.css
+
+settings[shortcut_module_link] = 1
+
+version = "7.0"
+core = "7.x"

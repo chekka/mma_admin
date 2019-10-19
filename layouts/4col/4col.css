@@ -1,0 +1,16 @@
+.panel-col-left-outer { 
+  float: left; 
+  width: 25%; 
+}
+.panel-col-left-inner { 
+  float: left; 
+  width: 25%; 
+}
+.panel-col-right-inner { 
+  float: left; 
+  width: 25%; 
+}
+.panel-col-right-outer { 
+  float: left; 
+  width: 25%; 
+}

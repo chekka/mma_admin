@@ -1,0 +1,24 @@
+/**
+ * @file
+ * Styling for the ds-2col-stacked template.
+ */
+.mma.ds-2col-stacked {
+ display: flex;
+}
+.mma.ds-2col-stacked > .group-header {
+ 
+}
+
+.mma.ds-2col-stacked > .group-left {
+ flex: 0 1 50%;
+ padding: 34px;
+ background-color: #fff;
+}
+
+.mma.ds-2col-stacked > .group-right {
+ flex: 0 1 50%;
+}
+
+.mma.ds-2col-stacked > .group-footer {
+ flex: 0 1 100%;
+}

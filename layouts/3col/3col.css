@@ -1,0 +1,12 @@
+header {
+ float: left;
+ width: 100%; 
+}
+.col { 
+  float: left; 
+  width: 33.333%; 
+}
+.bottom {
+ float: left;
+ width: 100%; 
+}
